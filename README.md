@@ -1,0 +1,2 @@
+The network model was trained on an NVIDIA RTX A5000 using Pytorch 1.7.0, compiled in Python 3.8, and we used the AdaDelta optimizer to train our model with a learning rate of 1.0 for 30 epochs.
+In the PURE dataset, we selected the videos of subjects 1 and 6 as the test set, while the remaining subjects were used for training. In the UBFC dataset, we selected the videos of subjects 10, 15, 18, 34, 36, 37, and 44 as the test set, with the remaining subjects used for training.
